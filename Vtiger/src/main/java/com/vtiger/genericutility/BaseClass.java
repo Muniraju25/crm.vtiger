@@ -33,10 +33,10 @@ public class BaseClass {
 	
 	@Parameters(value = "BROWSER")
 	@BeforeClass(groups={"smokeTest","regressionTest"})
-	public void configBC(String BROWSER) throws Exception
+	public void configBC() throws Exception
 	{
 		System.out.println("===launch the browser===");
-     	//String BROWSER =fui.getPropertyKeyValue("browser");
+     	String BROWSER =fui.getPropertyKeyValue("browser");
      	
  		if(BROWSER.equals("firefox")){
  			driver=new FirefoxDriver();
