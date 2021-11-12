@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="20" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70022" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:10:05 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrgTest()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="createContactWithOrgTest" class="com.vtiger.createcontact.CreateContactWithOrganizationTest"/>
+        <method signature="CreateOrganizationWithIndustry.createOrgWithIndustriesTest()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="createOrgWithIndustriesTest" class="com.vtiger.createorganization.CreateOrganizationWithIndustry"/>
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrgTest()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="createContactWithOrgTest" class="com.vtiger.createcontact.CreateContactWithOrganizationTest"/>
+        <method signature="CreateOrganizationWithIndustry.createOrgWithIndustriesTest()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="createOrgWithIndustriesTest" class="com.vtiger.createorganization.CreateOrganizationWithIndustry"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="createContactTest" class="com.vtiger.createcontact.CreateContactTest"/>
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="createOrgTest" class="com.vtiger.createorganization.CreateOrgTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="createContactTest" class="com.vtiger.createcontact.CreateContactTest"/>
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="createOrgTest" class="com.vtiger.createorganization.CreateOrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Testrunner-1" duration-ms="65387" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:10:00 IST">
+      <class name="com.vtiger.createorganization.CreateOrganizationWithIndustry">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="configBC" is-config="true" duration-ms="1289" started-at="2021-11-12T22:09:32 IST" finished-at="2021-11-12T22:09:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="configBM" is-config="true" duration-ms="2805" started-at="2021-11-12T22:09:33 IST" finished-at="2021-11-12T22:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgWithIndustriesTest()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="createOrgWithIndustriesTest" duration-ms="8687" started-at="2021-11-12T22:09:36 IST" finished-at="2021-11-12T22:09:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustriesTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="configAM" is-config="true" duration-ms="976" started-at="2021-11-12T22:09:45 IST" finished-at="2021-11-12T22:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@553a3d88]" name="configAC" is-config="true" duration-ms="622" started-at="2021-11-12T22:09:46 IST" finished-at="2021-11-12T22:09:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createorganization.CreateOrganizationWithIndustry -->
+      <class name="com.vtiger.createcontact.CreateContactTest">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="configBC" is-config="true" duration-ms="1262" started-at="2021-11-12T22:09:47 IST" finished-at="2021-11-12T22:09:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="configBM" is-config="true" duration-ms="2808" started-at="2021-11-12T22:09:48 IST" finished-at="2021-11-12T22:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="createContactTest" duration-ms="7866" started-at="2021-11-12T22:09:51 IST" finished-at="2021-11-12T22:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="configAM" is-config="true" duration-ms="1112" started-at="2021-11-12T22:09:58 IST" finished-at="2021-11-12T22:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@7a30d1e6]" name="configAC" is-config="true" duration-ms="733" started-at="2021-11-12T22:10:00 IST" finished-at="2021-11-12T22:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createcontact.CreateContactTest -->
+      <class name="com.vtiger.createorganization.CreateOrgTest">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="configBC" is-config="true" duration-ms="1251" started-at="2021-11-12T22:09:18 IST" finished-at="2021-11-12T22:09:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="configBM" is-config="true" duration-ms="3219" started-at="2021-11-12T22:09:20 IST" finished-at="2021-11-12T22:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="createOrgTest" duration-ms="7536" started-at="2021-11-12T22:09:23 IST" finished-at="2021-11-12T22:09:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="configAM" is-config="true" duration-ms="944" started-at="2021-11-12T22:09:30 IST" finished-at="2021-11-12T22:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@64f6106c]" name="configAC" is-config="true" duration-ms="695" started-at="2021-11-12T22:09:31 IST" finished-at="2021-11-12T22:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createorganization.CreateOrgTest -->
+      <class name="com.vtiger.createcontact.CreateContactWithOrganizationTest">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="configBC" is-config="true" duration-ms="2578" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:08:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="configBM" is-config="true" duration-ms="4382" started-at="2021-11-12T22:08:58 IST" finished-at="2021-11-12T22:09:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithOrgTest()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="createContactWithOrgTest" duration-ms="14904" started-at="2021-11-12T22:09:02 IST" finished-at="2021-11-12T22:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="configAM" is-config="true" duration-ms="1004" started-at="2021-11-12T22:09:17 IST" finished-at="2021-11-12T22:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@52f759d7]" name="configAC" is-config="true" duration-ms="678" started-at="2021-11-12T22:09:18 IST" finished-at="2021-11-12T22:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createcontact.CreateContactWithOrganizationTest -->
+    </test> <!-- Testrunner-1 -->
+    <test name="Testrunner-2" duration-ms="70022" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:10:05 IST">
+      <class name="com.vtiger.createorganization.CreateOrganizationWithIndustry">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="configBC" is-config="true" duration-ms="3239" started-at="2021-11-12T22:09:35 IST" finished-at="2021-11-12T22:09:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="configBM" is-config="true" duration-ms="2672" started-at="2021-11-12T22:09:38 IST" finished-at="2021-11-12T22:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgWithIndustriesTest()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="createOrgWithIndustriesTest" duration-ms="7819" started-at="2021-11-12T22:09:41 IST" finished-at="2021-11-12T22:09:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustriesTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="configAM" is-config="true" duration-ms="1034" started-at="2021-11-12T22:09:49 IST" finished-at="2021-11-12T22:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createorganization.CreateOrganizationWithIndustry@47db50c5]" name="configAC" is-config="true" duration-ms="762" started-at="2021-11-12T22:09:50 IST" finished-at="2021-11-12T22:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createorganization.CreateOrganizationWithIndustry -->
+      <class name="com.vtiger.createcontact.CreateContactTest">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="configBC" is-config="true" duration-ms="3215" started-at="2021-11-12T22:09:50 IST" finished-at="2021-11-12T22:09:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="configBM" is-config="true" duration-ms="2704" started-at="2021-11-12T22:09:54 IST" finished-at="2021-11-12T22:09:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="createContactTest" duration-ms="6995" started-at="2021-11-12T22:09:56 IST" finished-at="2021-11-12T22:10:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="configAM" is-config="true" duration-ms="851" started-at="2021-11-12T22:10:03 IST" finished-at="2021-11-12T22:10:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createcontact.CreateContactTest@4d1b0d2a]" name="configAC" is-config="true" duration-ms="808" started-at="2021-11-12T22:10:04 IST" finished-at="2021-11-12T22:10:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createcontact.CreateContactTest -->
+      <class name="com.vtiger.createorganization.CreateOrgTest">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="configBC" is-config="true" duration-ms="3218" started-at="2021-11-12T22:09:19 IST" finished-at="2021-11-12T22:09:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="configBM" is-config="true" duration-ms="2951" started-at="2021-11-12T22:09:22 IST" finished-at="2021-11-12T22:09:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="createOrgTest" duration-ms="7213" started-at="2021-11-12T22:09:25 IST" finished-at="2021-11-12T22:09:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="configAM" is-config="true" duration-ms="1239" started-at="2021-11-12T22:09:33 IST" finished-at="2021-11-12T22:09:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createorganization.CreateOrgTest@67b467e9]" name="configAC" is-config="true" duration-ms="994" started-at="2021-11-12T22:09:34 IST" finished-at="2021-11-12T22:09:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.createorganization.CreateOrgTest -->
+      <class name="com.vtiger.createcontact.CreateContactWithOrganizationTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configBS" is-config="true" duration-ms="191" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configBC" is-config="true" duration-ms="3760" started-at="2021-11-12T22:08:55 IST" finished-at="2021-11-12T22:08:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configBM" is-config="true" duration-ms="4323" started-at="2021-11-12T22:08:59 IST" finished-at="2021-11-12T22:09:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithOrgTest()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="createContactWithOrgTest" duration-ms="14301" started-at="2021-11-12T22:09:03 IST" finished-at="2021-11-12T22:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configAM" is-config="true" duration-ms="1062" started-at="2021-11-12T22:09:17 IST" finished-at="2021-11-12T22:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configAC" is-config="true" duration-ms="843" started-at="2021-11-12T22:09:18 IST" finished-at="2021-11-12T22:09:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.createcontact.CreateContactWithOrganizationTest@10a035a0]" name="configAS" is-config="true" duration-ms="5" started-at="2021-11-12T22:10:05 IST" finished-at="2021-11-12T22:10:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vtiger.createcontact.CreateContactWithOrganizationTest -->
+    </test> <!-- Testrunner-2 -->
+  </suite> <!-- Suite -->
+</testng-results>
